@@ -1,6 +1,9 @@
 spring:
    application:
       name: RatingService
+server:
+   port: 8062
+   
 eureka:
    instance:
       prefer-ip-address: true
